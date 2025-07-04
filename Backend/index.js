@@ -23,7 +23,7 @@ app.use("/api/order", OrderRouter);
 app.use("/api/auth", UserRouter);
 app.use("/api/admin", AdminRouter);
 
-app.get("/", () => {
+app.get("/", (req,res) => {
   res.send("API WORKING PROPERLY");
 });
 
