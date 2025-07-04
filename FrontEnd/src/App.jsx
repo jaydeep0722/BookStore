@@ -20,6 +20,8 @@ import ManageBooks from "./pages/Dashboard/ManageBooks";
 import AddBook from "./pages/Dashboard/AddBook";
 import AdminRoute from "./routes/AdminRoutes";
 import DashboardLayout from "./pages/Dashboard/DashboardLayout";
+
+// app component
 function App() {
   return (
     <>
